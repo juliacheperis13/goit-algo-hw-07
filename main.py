@@ -9,12 +9,12 @@ if __name__ == "__main__":
     total_sum = tree.total_sum()
 
     if max_value_node is not None:
-        print(f'Max value is {max_value_node.val}')
+        print(f'Max value is {max_value_node}')
     else:
         print('Max value is not available')
 
     if min_value_node is not None:
-        print(f'Max value is {min_value_node.val}')
+        print(f'Max value is {min_value_node}')
     else:
         print('Min value is not available')
 

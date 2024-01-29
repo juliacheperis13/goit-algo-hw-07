@@ -21,7 +21,7 @@ class Tree:
         if current is not None:
             while current.left:
                 current = current.left
-            return current
+            return current.val
         else:
             return None
 
@@ -31,7 +31,7 @@ class Tree:
         if current is not None:
             while current.right:
                 current = current.right
-            return current
+            return current.val
         else:
             return None
 
